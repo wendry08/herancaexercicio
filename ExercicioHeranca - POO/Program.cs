@@ -1,11 +1,11 @@
-﻿using ExercicioHeranca___POO.Classes;
+﻿using Poo_exercicio.Classe;
 
-public class Program
+class Program
 {
     static void Main(string[] args)
     {
-        ContaEmpresa contaEmpresa = new ContaEmpresa(1, "Agencia1", "Empresa1", 100.0, 5000.0);
-        ContaEstudante contaEstudante = new ContaEstudante(2, "Agencia2", "Estudante1", 1000.0, "12345678901", "Universidade XYZ");
+        ContaEmpresa contaEmpresa = new ContaEmpresa(1, "itau", "tai max", 100.0, 5000.0);
+        ContaEstudante contaEstudante = new ContaEstudante(2, "bradesco", "wendry", 1000.0, "12345678901", "Universidade de Havard");
 
         contaEmpresa.Depositar(5000.0);
         contaEmpresa.RealizarEmprestimo(3000.0);
@@ -14,7 +14,5 @@ public class Program
         contaEstudante.Depositar(1000.0);
         contaEstudante.Sacar(1500.0);
         contaEstudante.Sacar(2000.0);
-
-
     }
 }

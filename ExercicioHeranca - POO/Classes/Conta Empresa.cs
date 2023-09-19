@@ -4,21 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExercicioHeranca___POO.Classes
+namespace Poo_exercicio.Classe
 {
-    internal class Conta_Empresa:Banco
+    internal class ContaEmpresa : ContaBancaria
     {
+
         public double TaxaAnuidade { get; set; }
         public double LimiteEmprestimo { get; set; }
         public double TotalEmprestimo { get; set; }
 
-        public Conta_Empresa(int numeroConta, string agencia, string titular,double saldo, double taxaAnuidade, double limiteEmprestimo, double totalemprestimo)
-            :base(taxaAnuidade,limiteEmprestimo,totalemprestimo)
+        public ContaEmpresa(int numeroConta, string agencia, string titular, double taxaAnuidade, double limiteEmprestimo)
+            : base(numeroConta, agencia, titular)
         {
-            this.TaxaAnuidade = taxaAnuidade;
-            this.LimiteEmprestimo = limiteEmprestimo;
-            this.TotalEmprestimo = totalemprestimo;
+            TaxaAnuidade = taxaAnuidade;
+            LimiteEmprestimo = limiteEmprestimo;
+            TotalEmprestimo = 0.0;
         }
+
         public void RealizarEmprestimo(double valor)
         {
             if (valor <= LimiteEmprestimo)
@@ -32,6 +34,7 @@ namespace ExercicioHeranca___POO.Classes
                 Console.WriteLine("Valor de empréstimo excede o limite disponível.");
             }
         }
+
         public override void Sacar(double valor)
         {
             if (valor <= Saldo)
@@ -51,9 +54,6 @@ namespace ExercicioHeranca___POO.Classes
                 Console.WriteLine("Saldo insuficiente para o saque e limite de cheque especial excedido.");
             }
         }
-
-
-
 
     }
 }

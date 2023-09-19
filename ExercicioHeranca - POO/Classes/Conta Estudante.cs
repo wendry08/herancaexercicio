@@ -4,21 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExercicioHeranca___POO.Classes
+namespace Poo_exercicio.Classe
 {
-    internal class Conta_Estudante:Banco
+    public class ContaEstudante : ContaBancaria
     {
         public double LimiteChequeEspecial { get; set; }
         public string CPF { get; set; }
         public string InstituicaoEnsino { get; set; }
 
-        public Conta_Estudante(int numeroConta, int agencia, string titular, double limitechequeespecial, string cpf, string instituicaoEnsino)
-            :base(numeroConta, agencia, titular)
+        public ContaEstudante(int numeroConta, string agencia, string titular, double limiteChequeEspecial, string cpf, string instituicaoEnsino)
+            : base(numeroConta, agencia, titular)
         {
-            this.LimiteChequeEspecial = limitechequeespecial;
-            this.CPF = cpf;
-            this.InstituicaoEnsino = instituicaoEnsino;
+            LimiteChequeEspecial = limiteChequeEspecial;
+            CPF = cpf;
+            InstituicaoEnsino = instituicaoEnsino;
         }
+
         public override void Sacar(double valor)
         {
             if (valor <= Saldo)
@@ -26,7 +27,7 @@ namespace ExercicioHeranca___POO.Classes
                 Saldo -= valor;
                 Console.WriteLine($"Saque de R${valor} realizado com sucesso.");
             }
-            else if (valor <= Saldo += LimiteChequeEspecial)
+            else if (valor <= Saldo + LimiteChequeEspecial)
             {
                 double valorSaqueChequeEspecial = valor - Saldo;
                 Saldo = 0;
@@ -34,7 +35,7 @@ namespace ExercicioHeranca___POO.Classes
             }
             else
             {
-                Console.WriteLine("Saldo insuficiente e limite de cheque especial excedido para o saque.");
+                Console.WriteLine("Saldo insuficiente e limite de cheque especial ultrapassado para o saque.");
             }
         }
     }

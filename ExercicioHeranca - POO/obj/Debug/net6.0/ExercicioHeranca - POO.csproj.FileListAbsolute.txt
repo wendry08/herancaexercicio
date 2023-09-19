@@ -1,0 +1,15 @@
+C:\Users\2022102020033\Desktop\lp\aula 2 - POO\ExercicioHeranca - POO\ExercicioHeranca - POO\bin\Debug\net6.0\ExercicioHeranca - POO.exe
+C:\Users\2022102020033\Desktop\lp\aula 2 - POO\ExercicioHeranca - POO\ExercicioHeranca - POO\bin\Debug\net6.0\ExercicioHeranca - POO.deps.json
+C:\Users\2022102020033\Desktop\lp\aula 2 - POO\ExercicioHeranca - POO\ExercicioHeranca - POO\bin\Debug\net6.0\ExercicioHeranca - POO.runtimeconfig.json
+C:\Users\2022102020033\Desktop\lp\aula 2 - POO\ExercicioHeranca - POO\ExercicioHeranca - POO\bin\Debug\net6.0\ExercicioHeranca - POO.dll
+C:\Users\2022102020033\Desktop\lp\aula 2 - POO\ExercicioHeranca - POO\ExercicioHeranca - POO\bin\Debug\net6.0\ExercicioHeranca - POO.pdb
+C:\Users\2022102020033\Desktop\lp\aula 2 - POO\ExercicioHeranca - POO\ExercicioHeranca - POO\obj\Debug\net6.0\ExercicioHeranca - POO.csproj.AssemblyReference.cache
+C:\Users\2022102020033\Desktop\lp\aula 2 - POO\ExercicioHeranca - POO\ExercicioHeranca - POO\obj\Debug\net6.0\ExercicioHeranca - POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2022102020033\Desktop\lp\aula 2 - POO\ExercicioHeranca - POO\ExercicioHeranca - POO\obj\Debug\net6.0\ExercicioHeranca - POO.AssemblyInfoInputs.cache
+C:\Users\2022102020033\Desktop\lp\aula 2 - POO\ExercicioHeranca - POO\ExercicioHeranca - POO\obj\Debug\net6.0\ExercicioHeranca - POO.AssemblyInfo.cs
+C:\Users\2022102020033\Desktop\lp\aula 2 - POO\ExercicioHeranca - POO\ExercicioHeranca - POO\obj\Debug\net6.0\ExercicioHeranca - POO.csproj.CoreCompileInputs.cache
+C:\Users\2022102020033\Desktop\lp\aula 2 - POO\ExercicioHeranca - POO\ExercicioHeranca - POO\obj\Debug\net6.0\ExercicioHeranca - POO.dll
+C:\Users\2022102020033\Desktop\lp\aula 2 - POO\ExercicioHeranca - POO\ExercicioHeranca - POO\obj\Debug\net6.0\refint\ExercicioHeranca - POO.dll
+C:\Users\2022102020033\Desktop\lp\aula 2 - POO\ExercicioHeranca - POO\ExercicioHeranca - POO\obj\Debug\net6.0\ExercicioHeranca - POO.pdb
+C:\Users\2022102020033\Desktop\lp\aula 2 - POO\ExercicioHeranca - POO\ExercicioHeranca - POO\obj\Debug\net6.0\ExercicioHeranca - POO.genruntimeconfig.cache
+C:\Users\2022102020033\Desktop\lp\aula 2 - POO\ExercicioHeranca - POO\ExercicioHeranca - POO\obj\Debug\net6.0\ref\ExercicioHeranca - POO.dll
